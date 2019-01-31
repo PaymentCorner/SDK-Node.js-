@@ -385,17 +385,7 @@ __Usage__
     Payment.fxMarketRateWithMarkUp({
         currency_to_buy: 'USD',
         currency_to_sell: 'GBP',
-        side_of_fx_tx: 'buy',{
-         "settlement_cut_off_time": "2018-12-13T16:30:00Z",
-         "currency_pair": "GBPUSD",
-         "currency_to_buy": "USD",
-         "currency_to_sell": "GBP",
-         "amount_to_buy": "10.00",
-         "amount_to_sell": "7.10",
-         "side_of_fx_tx": "buy",
-         "client_rate": "1.4079",
-         "mid_market_rate": "1.4080"
-     }
+        side_of_fx_tx: 'buy',
         amount: 10.00
     })
     .then(data => {

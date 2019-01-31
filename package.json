@@ -1,0 +1,17 @@
+{
+  "name": "@accubits/payment-corner",
+  "version": "1.0.5",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+
+  },
+  "author": "Payment Corner ",
+  "license": "ISC",
+  "dependencies": {
+    "unirest": "^0.5.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -51,13 +51,13 @@ Our FX platform currently supports the following 28 currencies:
 
 ## Installation
 Install the package with:
-````npm i @accubits/payment-corner````
+````npm i payment-corner````
 
 ## Usage
 The package needs to be configured with your account's email , passpword and client id, Client id can be obtained from your Payment Corner Dashboard.
 
 ```javascript
-const paymentCorner = require('@accubits/payment-corner');
+const paymentCorner = require('payment-corner');
 
 let Payment = new paymentCorner({
     email: 'user@domain.com',

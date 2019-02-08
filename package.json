@@ -1,6 +1,6 @@
 {
-  "name": "@accubits/payment-corner",
-  "version": "1.0.5",
+  "name": "payment-corner",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
